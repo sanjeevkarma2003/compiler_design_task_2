@@ -16,3 +16,6 @@ Once all multiplication and division have been processed, the program performs a
 The calculate() function itself is a helper method that takes two integers and a character operator, returning the result of the operation. It includes a division check to avoid divide-by-zero errors, although the fallback in such cases is simply returning zero, which could be further improved for better error handling. All other operations are straightforward.
 
 This program demonstrates several fundamental programming concepts, such as string parsing using stringstream, dynamic array manipulation with vectors, and implementing arithmetic logic with respect to operator precedence. While it doesn't handle parentheses or floating-point numbers, it effectively evaluates flat arithmetic expressions with correct order of operations. Its structured and readable format makes it a great educational example for beginners learning how to implement expression evaluation and basic parsing in C++. Enhancements like input validation, support for parentheses, decimal numbers, or error messages for malformed input would make the program more robust and user-friendly.
+
+#OUTPUT:
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/69d4b11e-e0b7-4f31-a277-31561dcacafe" />

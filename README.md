@@ -1,6 +1,13 @@
 # compiler_design_task_2
 
-The given C++ program is a simple arithmetic expression evaluator that follows the BODMAS rule (i.e., operator precedence for multiplication and division before addition and subtraction). The program allows the user to input a single-line arithmetic expression, such as 6 + 4 * 2 - 6 / 3, which it then parses and evaluates correctly. At the core of the program are two standard template library (STL) vectors: one to store numbers (numbers) and another to store operators (operators). It begins by prompting the user to enter a space-separated expression consisting of integers and the four basic operators (+, -, *, /). Using a stringstream, the input is broken down into alternating numbers and operators. The first number is pushed directly into the numbers vector, and subsequent number-operator pairs are read and stored in the corresponding vectors.
+COMPANY: CODTECH IT SOLUTIONS PVT.LTD *
+NAME: sanjeev kumar karma 
+INTERN ID:CT04DG3178
+DOMAIN: C++ LANGUAGE 
+DURATION: 4 WEEKS
+MENTOR: NEELA SANTOSH KUMAR 
+
+pragraph : The given C++ program is a simple arithmetic expression evaluator that follows the BODMAS rule (i.e., operator precedence for multiplication and division before addition and subtraction). The program allows the user to input a single-line arithmetic expression, such as 6 + 4 * 2 - 6 / 3, which it then parses and evaluates correctly. At the core of the program are two standard template library (STL) vectors: one to store numbers (numbers) and another to store operators (operators). It begins by prompting the user to enter a space-separated expression consisting of integers and the four basic operators (+, -, *, /). Using a stringstream, the input is broken down into alternating numbers and operators. The first number is pushed directly into the numbers vector, and subsequent number-operator pairs are read and stored in the corresponding vectors.
 
 To correctly implement operator precedence, the program processes the multiplication (*) and division (/) operations first in a dedicated loop. For each such operator found, it calls the calculate() function, which performs the specified operation between the number at the current index and the one immediately following it. The result replaces the earlier number in the numbers vector, and the next number and current operator are erased, effectively shrinking the vector and shifting elements accordingly. The loop index is decremented to reevaluate the updated vector, ensuring correct sequencing of multiple high-priority operations.
 
